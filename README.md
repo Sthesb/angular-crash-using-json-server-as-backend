@@ -1,3 +1,14 @@
+
+#angular-crash-using-json-server-as-backend
+
+##Task Trasker
+this project demostrate how to use json-server as backend in crud application
+
+##To install json server globally to your machine run the followig command
+- npm install -g json-server
+##For more info on json-server, go to the site <a href = "https://www.npmjs.com/package/json-server"> jason-server </a>
+
+
 # AngularCrashCourse
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.6.
