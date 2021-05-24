@@ -1,0 +1,7 @@
+.reminder{
+    border-left: 5px solid green;
+}
+
+.row:hover{
+    cursor: pointer;
+}

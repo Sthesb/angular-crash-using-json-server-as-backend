@@ -1,0 +1,13 @@
+
+<div (dblclick)="onToggle(task)"  [ngClass]="{ reminder: task.reminder }" class="  row container-fluid bg-secondary text-white p-3 my-2">
+    <div  class="col-md-9">
+        <h3>{{ task.text }}</h3>
+        <p class="my-0 ">{{ task.day }} at {{ task.time }}</p>
+    </div>
+    <div class="col-md-3 p-0 ">
+        <button class="btn btn-warning mx-2" >Update</button>
+        <button class="btn btn-danger" (click)="onDelete(task)">Delete</button>
+    </div>
+
+
+</div>

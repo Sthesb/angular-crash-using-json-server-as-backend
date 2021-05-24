@@ -1,0 +1,8 @@
+<app-add-task (onAddTask)="addTask($event)"></app-add-task>
+<small>Double tap to set the reminder</small>
+<app-task-item data-toggle="tooltip"
+    *ngFor = "let task of tasks" 
+    [task] = "task" 
+    (onDeleteTask) = "deleteTask(task)"
+    (onToggleReminder) = "toggleReminder(task)"
+    > </app-task-item>
